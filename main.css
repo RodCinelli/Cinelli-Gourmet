@@ -53,6 +53,23 @@ body {
     text-decoration: none;
 }
 
+footer p {
+    margin-top: 20px;
+    color: #fff; /* Define a cor do texto para #ccc */
+}
+
+footer p, .github-link {
+    color: #fff; /* Define a cor do texto e do link para #ccc */
+}
+
+.github-link:hover {
+    color: #fff; /* Cor do link ao passar o mouse, opcional */
+}
+
+.footer-background {
+    background-color: #e15f41; /* Cor de fundo desejada */
+}
+
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
